@@ -1,0 +1,10 @@
+video{
+    position: absolute;
+}
+.arbre{
+    position: relative;
+    
+    width: 40pc;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

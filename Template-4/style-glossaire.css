@@ -1,0 +1,66 @@
+body{
+    
+    color: rgb(0, 0, 0);
+    
+
+}
+#myVideo {
+    position: absolute;
+   
+    width: 130pc;
+    height: 40pc;
+    margin-bottom: 20px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #edeeee;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-top: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1{
+    text-align: center;
+  }
+  .topnav img{
+    
+    
+   width: 5pc;
+   border-radius: 50px;
+
+   
+  }
+  
+  .topnav a {
+    float: left;
+    
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-ize: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    transition: all 1s;
+    
+  }
+  .topnav a:hover {
+    width: 250px;
+    padding-left: 40px;
+    background-color: rgb(14, 14, 172);
+    border: #000 2px solid;
+    font-weight: bold;
+    color: #edeeee;
+  }
+  .def{
+    position: relative;
+  
+  
+    float: left;
+  }
+  .def-2{
+    float: left;
+  }
+  fieldset{
+    width: fit-content;
+  }

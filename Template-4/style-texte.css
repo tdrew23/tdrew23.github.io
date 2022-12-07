@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    background-image: url('cloud.jpg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(54, 54, 54);
+    
+    
+
+    
+    
+}
+.navbar h1{
+   padding-left: 600px;
+}
+
+.navbar li{
+    display: inline-flex;
+    width: 100px;
+    
+}
+
+.image{
+   font-size: larger;
+   position: absolute;
+
+}
+.def{
+    display: flex;
+    position: relative;
+    width: 29pc;
+    float: right;
+    flex-direction: column;
+}
+
+
+
+ 
+   
