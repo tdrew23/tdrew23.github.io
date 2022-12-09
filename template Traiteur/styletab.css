@@ -1,3 +1,19 @@
+header{
+    display: flexbox;
+    background-color: rgb(243, 243, 180);
+    overflow: hidden;
+
+}
+h1{
+    text-align: center;
+}
+header a{ 
+    padding-left: 15px;
+  
+        text-decoration: none;
+        color: black;
+       }
+
 table,
 td {
     border: 1px solid #333;
@@ -15,8 +31,4 @@ table{
     height: 500px;
     width: 800px;
     
-}
-div{
-    display: flex;
-    justify-content: center;
 }

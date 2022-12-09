@@ -1,15 +1,25 @@
-#logo_fixe { 
-  position : fixed; left : 10px; top : 10px; 
-     }
-    
-     .topnav {
-        overflow: hidden;
-        background-image: url('moza.png');
-        padding: 20px 10px;
-        border-radius: 10px;
-        margin-top: -10px;
-        position: fixed;
-      }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,*::after{
+  margin: 0;
+  padding: 0;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(243, 243, 180);
+  width: 100pc;        
+  border-radius: 10px;
+  position: fixed;
+}
+h1{
+  padding-left: 35pc;
+}
       
       .topnav a {
         float: left;
@@ -20,6 +30,9 @@
         font-size: 18px;
         line-height: 25px;
         border-radius: 4px;
+      }
+      .image img{
+        padding-top: 63px;
       }
       .contenaire{
         display: flex;
@@ -32,8 +45,10 @@
       }
       article{
         width: 500px;
+
        
       }
+      
       menu, ul {
         display: flex;
         list-style: none;
@@ -55,21 +70,22 @@
         width: 400px;
       }
       
-      li {
-        flex-grow: 1;
-      }
       
-      button {
-        width: 100%;
-      }
+      
+      
       .menu{
         display: flex;
         justify-content: space-between;
       }
+      fieldset{
+        background-image: url("culinaire.jpg");
+      }
 
       .footer-basic {
         padding:40px 0;
-        background-color:#ffffff;
+        background-color:beige;
+
+
         color:#4b4c4d;
       }
       
@@ -128,6 +144,9 @@
       }
       .oeuf {
         text-align: center;
+      }
+      .contenaire{
+        background-color: rgb(243, 243, 180);
       }
       .contenaire ul{
         flex-direction: column;
