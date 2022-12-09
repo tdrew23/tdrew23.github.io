@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name = "author" content = "Tariq Drewniak" />
+
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+  <header>
+    <nav class="topnav">
+      
+    
+      
+    <h1>Univers</h1>
+    <a class="#" href="formulaire.html">Formulaire</a>
+    <a href="programme.html" target="_blank">Programme</a>
+    <a href="a-propos.html" target="_blank">A propos</a>
+    <a href="video.html" target="_blank">Video</a>
+    <a href="glossaire.html"target="_blank">Glossaire</a>
+    <a href="#"target="_blank">Acceuil</a>
+
+
+</nav></header>
+<form method="post" action="" enctype="multipart/form-data">
+    <label for="pseudo">Pseudo *</label>
+    <input type="text" id="pseudo" name="pseudo" required><br>
+     
+    <label for="mdp">Mot de passe</label>
+    <input type="password" id="mdp" name="mdp"><br>
+     
+    <label for="prenom">Prenom</label>
+    <input type="text" id="prenom" name="prenom" placeholder="Votre prenom"><br>
+     
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email"><br>
+     
+   
+     
+    <label for="Pays">Pays</label>
+    <select id="Pays" name="pays">
+        <optgroup label="Europe">
+            <option value="fr">France</option>
+            <option value="it">Italie</option>
+            <option value="es" selected>Espagne</option>
+        </optgroup>
+    </select><br>
+
+    <label for="choix">Quel sont vos fruits préférés ?</label>
+    <p><input type="checkbox" name="choix"> Orange
+    <input type="checkbox" name="choix"> Fraise
+    <input type="checkbox" name="choix"> Poire</p>
+     
+    <label for="civilite">Civilite</label>
+    <p><input type="radio" name="civilite" value="m" checked>Homme
+    <input type="radio" name="civilite" value="f">Femme</p>
+     
+    <label for="ville">Ville</label>
+    <input type="text" id="ville" name="ville" list="france">
+    <datalist id="france">
+        <option>Paris</option>
+        <option>Marseille</option>
+        <option>Lyon</option>
+    </datalist><br>
+
+    <label for="cp">Code Postale</label>
+    <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9"><br>
+     
+    <label for="adresse">Adresse</label>
+    <textarea id="adresse" name="adresse" rows="5" cols="25"></textarea><br>
+
+    <input type="submit" value="valider">
+    
+
+</form>
+
+</body>
+</html>

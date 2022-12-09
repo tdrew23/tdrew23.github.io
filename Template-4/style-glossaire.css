@@ -1,6 +1,7 @@
 body{
     
     color: rgb(0, 0, 0);
+    background-color: rgb(177, 140, 177);
     
 
 }
@@ -63,4 +64,16 @@ body{
   }
   fieldset{
     width: fit-content;
+  }
+  .info{
+    position: absolute;
+  float: left;  
+  padding-top: 600px;  
+  display: flex;
+  
+  }
+  .info img{
+    border-radius: 25px;
+  }
+  details{
   }

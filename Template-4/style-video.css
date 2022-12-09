@@ -5,6 +5,21 @@ video{
     position: relative;
     
     width: 40pc;
-    font-size: larger;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cerisier{
+display: flex;
+
+}
+.cerisier figure{
+    width: 40pc
+}
+iframe{
+    position: relative;
+    margin-top: 55px;
+    
+
+}
+h1{
+    color: rgb(0, 33, 60);
 }

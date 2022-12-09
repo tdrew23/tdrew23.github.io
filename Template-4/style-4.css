@@ -1,10 +1,17 @@
+
+
+body{
+  background-color: rgb(139, 139, 234);
+}
+
 .topnav {
     overflow: hidden;
     background-color: #edeeee;
-    padding: 20px 10px;
+    
     border-radius: 10px;
-    margin-top: -10px;
+   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed absolute;
   }
   h1{
     text-align: center;
@@ -157,13 +164,7 @@
     background-color: #141414;
   }
 
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    border: solid;
-  }
+  
   .gris{
     background-color: rgb(219, 216, 216);
     width: 40pc;
@@ -171,11 +172,17 @@
   .mets{
     background-image: url('culinaire.jpg');
   }
-  .gris fieldset{
+
+  .gris {
     height: 100px;
+    margin-top: 20px;
+    background-image: url('cherry-blossom.jpg');
   }
   .mets fieldset{
     height:70px ;
+    width: 45pc;
+    background-image: url('cherry-blossom.jpg');
+
   }
 
   

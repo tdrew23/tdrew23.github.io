@@ -1,8 +1,13 @@
+body{
+  background-color: aquamarine;
+}
+
 .navbar{
     display: flex;
     background-image: url('cloud.jpg');
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(54, 54, 54);
+    
     
     
 
@@ -13,11 +18,31 @@
    padding-left: 600px;
 }
 
-.navbar li{
+.navbar a{
     display: inline-flex;
     width: 100px;
     
 }
+.navbar a {
+    float: right;
+    
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    transition: all 1s;
+  }
+  .navbar a:hover {
+    width: 250px;
+    padding-left: 40px;
+    background-image: url('nuagegif.gif');
+    border: #000 2px solid;
+    font-weight: bold;
+    color: #edeeee;
+  }
 
 .image{
    font-size: larger;
@@ -30,6 +55,38 @@
     width: 29pc;
     float: right;
     flex-direction: column;
+}
+fieldset{
+  background-image: url('cloud.jpg');
+  background-size: cover;
+  
+}
+section{
+  position: relative;
+  float: right;
+  padding-top: 480px;
+  padding-right: 300px; 
+  width: 35pc;
+}
+.mets{
+  display:flexbox;
+  font-size: larger;
+}
+
+
+
+footer{
+border: solid;
+background-color: rgb(0, 0, 78);
+color: aliceblue;
+margin-top:800px ;
+}
+footer li{
+  display: inline-block;
+  padding-left: 20px;
+}
+h4{
+  text-align: center;
 }
 
 
