@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::before,::after{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(29, 28, 28);
+}
+.topnav {
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 28, 28);
+    
+    border-radius: 10px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed absolute;
+  }
+  h1{
+    text-align: center;
+  }
+  .topnav a {
+    float: right;
+    
+    color: rgb(243, 243, 243);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    transition: all 1s;
+  }
+  .topnav a:hover {
+    width: 250px;
+    padding-left: 40px;
+    background-color: rgb(70, 9, 9);
+    border: #000 2px solid;
+    font-weight: bold;
+    color: #edeeee;
+  }
+  .image{
+    height: 500px;
+    width:inherit;
+    background-size: cover;
+    background-image: url("salon-m.jpg");
+  }
+  .icon{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(70, 9, 9); 
+    width: 75pc;
+    margin-left: 75px;
+    border-radius: 25px;
+    border:solid ;
+
+  }
+  i p{
+    padding-left: 15px;
+    font-size: larger;
+
+}
+  i img{
+    padding-left: 20px;
+  }
+  .liste{
+    display: flex;
+    color:aliceblue;
+    flex-direction: column;
+  }
+  .liste img{
+    position: absolute;
+  }
+  
+
+  
+  .gauche{
+    position: relative;
+    left: 510px;
+    width: 300px;
+  }
+  .droite{
+    position: absolute;
+    top: 690px;
+    left: 850px;
+    width: 300px;
+
+  }
+  footer {
+    color:white;
+    display: flex;
+    position: relative;
+    border: solid;
+    flex-direction: column;
+    font-size: larger;
+    background-color: red;
+    text-align: center;
+    margin-top: 500px;
+}
+h3{
+  padding-left: 35px;
+}
+footer li{
+    display: inline-block;
+    padding-left: 20px;
+    height: 150px ;
+}
+article img{
+left: 650px;
+box-shadow:25px #000;
+}
+
