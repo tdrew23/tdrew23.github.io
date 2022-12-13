@@ -155,34 +155,45 @@ body{
   footer h3{
     text-align: center;
   }
+  footer u{
+    
+  }
   footer li{
    display: inline-block;
    padding-left: 20px;
+  
+   
 }
   footer{
     color: #eaeaea;
     background-color: #141414;
+    display: flex;
+    flex-direction: column;
   }
 
   
   .gris{
-    background-color: rgb(219, 216, 216);
+    font-size: larger;
+    
     width: 40pc;
   }
   .mets{
+    font-size: larger;
     background-image: url('culinaire.jpg');
   }
 
   .gris {
     height: 100px;
     margin-top: 20px;
-    background-image: url('cherry-blossom.jpg');
   }
   .mets fieldset{
     height:70px ;
     width: 45pc;
-    background-image: url('cherry-blossom.jpg');
+    background-color:  rgb(191, 241, 224);
 
+  }
+  .gris fieldset{
+    background-color: rgb(191, 241, 224) ;
   }
 
   
