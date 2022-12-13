@@ -11,6 +11,9 @@
 body{
     background-color: rgb(29, 28, 28);
 }
+.main{
+  padding-bottom: 100px;
+}
 .topnav {
     overflow: hidden;
     color: whitesmoke;
@@ -39,7 +42,6 @@ body{
   }
   .topnav a:hover {
     width: 250px;
-    padding-left: 40px;
     background-color: rgb(70, 9, 9);
     border: #000 2px solid;
     font-weight: bold;
@@ -92,16 +94,60 @@ body{
     width: 300px;
 
   }
+  table{
+    margin-top: 600px;
+    font-size: larger;
+    color: azure;
+    margin-left: 190px;
+  }
+  .formulaire{
+    display: flex;
+  justify-content: center;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  margin-left: 100px;
+  }
+  form {
+  border: 5px solid #f1f1f1;
+  }
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+  .icone {
+  font-size: 110px;
+  display: flex;
+  justify-content: center;
+  color: #4286f4;
+  }
+  button {
+  background-color: #4286f4;
+  color: white;
+  padding: 14px 0;
+  margin: 10px 0;
+  border: none;
+  cursor: grab;
+  width: 48%;
+  margin-left: 190px;
+  }
+ 
+  button:hover {
+  opacity: 0.8;
+  }
   footer {
+    margin-top: 60px;
     color:white;
     display: flex;
-    position: relative;
     border: solid;
     flex-direction: column;
     font-size: larger;
     background-color: red;
     text-align: center;
-    margin-top: 500px;
+    flex-direction: column;
 }
 h3{
   padding-left: 35px;
@@ -115,4 +161,5 @@ article img{
 left: 650px;
 box-shadow:25px #000;
 }
+
 
