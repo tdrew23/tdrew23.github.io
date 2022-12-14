@@ -15,10 +15,14 @@ video{
     position: relative;
     float: right;
 }
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
 .topnav a {
     float: right;
     
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 12px;
     text-decoration: none;
