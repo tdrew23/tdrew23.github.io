@@ -16,6 +16,7 @@ main{
     justify-content: center;
     display: flex;
     color: antiquewhite;
+    justify-content: space-around;
 }
 .formation{
     margin-top: 55px;
@@ -23,4 +24,57 @@ main{
 }
 .formation button{
     margin-left: 55px;
+}
+.paragraphes{
+    display: flex;
+    color: aliceblue;
+    position: absolute;
+    top: 670px;
+    font-size: larger;
+    flex-wrap: wrap;
+    line-height: 1.4;
+}
+.para-1{
+    margin-right: 695px;
+    height: 180px;
+}
+.para-2{
+    height:400px ;
+    padding-right: 100px;
+    margin-top: 25px;
+}
+.paragraphes-2{
+    display: inline-flex;
+    color: aliceblue;
+    position: absolute;
+    top: 670px;
+    flex-wrap: wrap;
+    font-size: larger;
+    width: 45pc;
+    justify-content: space-between;
+    left: 640px;
+    margin-left: 22px;
+    line-height: 1.4;
+
+}
+.para-4{
+    margin-top: 75px;
+}
+.items{
+    position: absolute;
+    background-color: rgb(111, 36, 36);
+    top:990px;
+    margin-top: 145px;
+    color: aliceblue;
+    display: flex;
+justify-content: center;
+}
+.items img{
+    margin-left: 45px;
+    height: fit-content;
+    margin-top: 15px;
+}
+footer{
+    position: relative;
+    top:550px;
 }
