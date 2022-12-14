@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::before,::after{
+    margin: 0;
+    padding: 0;
+
+}
+.topnav{
+    border-bottom: solid;
+}
+
+main{
+    justify-content: center;
+    display: flex;
+    color: antiquewhite;
+}
+.formation{
+    margin-top: 55px;
+    padding-left:105px;
+}
+.formation button{
+    margin-left: 55px;
+}
