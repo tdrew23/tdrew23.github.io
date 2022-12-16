@@ -41,10 +41,11 @@ body{
     transition: all 0.2s;
   }
   .topnav a:hover {
-    width: 220px;
+    width: fit-content;
+    height: min-content;
+    
     background-color: rgb(70, 9, 9);
     border: #000 2px transparent;
-    font-weight: bold;
     color: #edeeee;
   }
   .image{

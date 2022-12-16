@@ -39,7 +39,17 @@ border: solid;
 }
 .module{
     font-size: larger;
+    line-height: 40px;
 }
 .module li{
     list-style: none;
+}
+figure{
+    background-color: brown;
+}
+footer{
+    height: 110px;
+    padding-bottom: 210px;
+    position: relative;
+    top: 105px;
 }
