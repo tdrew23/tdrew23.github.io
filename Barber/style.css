@@ -33,17 +33,17 @@ body{
     
     color: rgb(243, 243, 243);
     text-align: center;
-    padding: 12px;
+    padding: 25px;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
-    transition: all 1s;
+    transition: all 0.2s;
   }
   .topnav a:hover {
-    width: 250px;
+    width: 220px;
     background-color: rgb(70, 9, 9);
-    border: #000 2px solid;
+    border: #000 2px transparent;
     font-weight: bold;
     color: #edeeee;
   }
@@ -89,7 +89,7 @@ body{
   }
   .droite{
     position: absolute;
-    top: 690px;
+    top: 720px;
     left: 850px;
     width: 300px;
 

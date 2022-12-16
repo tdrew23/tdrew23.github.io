@@ -21,7 +21,7 @@ main{
 
 
 .formation{
-    margin-top: 55px;
+    margin-top: 25px;
     padding-left:155px;
     background-color: brown;
     border-radius: 44px;
@@ -82,6 +82,37 @@ justify-content: center;
     height: fit-content;
     margin-top: 15px;
 }
+.real{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+border: solid whitesmoke;
+justify-content: space-around;
+position: relative;
+top: 580px;
+background-color: brown;
+}
+.real h3{
+    font-size: larger;
+    color: wheat;
+    padding-top:55px;
+    padding-left: 450px;
+    margin-right:205px;
+    padding-right: 145px;
+    padding-bottom: 25px;
+}
+.real img{
+    border-radius: 55px;
+    padding-top: 10px;
+}
+.real p{
+    color: antiquewhite;
+    text-align: center;
+    font-size: larger;
+    padding-top: 25px;
+    
+}
+
 footer{
     position: relative;
     top:550px;
