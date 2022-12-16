@@ -1,3 +1,5 @@
+
+
 .vert{
     background-color: rgb(51, 212, 51);
 }
@@ -9,6 +11,7 @@ video{
     
     width: 40pc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px;
 }
 .cerisier{
 display: flex;
@@ -45,6 +48,109 @@ h2{
     display: flex;
     justify-content: space-around;
 }
+.calendrier{
+    font-size: larger;
+}
+.calendrier legend{
+    font-weight: bolder;
+}
+.calendar {
+    text-align: center;
+  }
+   
+  
+   h3{
+    font-size: larger;
+    padding-right: 700px;
+   }
+   
+  .calendar thead {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+   
+  .calendar tbody {
+    color: #fff;
+  }
+   
+  .calendar tbody td:hover {
+    border: 2px solid #00addf;
+  }
+   
+  .calendar td {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: inline-block;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    width: 4em;
+  }
+   
+  .calendar .prev-month,
+  .calendar .next-month {
+    color: #cbd1d2;
+  }
+   
+  .calendar .prev-month:hover,
+  .calendar .next-month:hover {
+    border: 2px solid #cbd1d2;
+  }
+   
+  .current-day {
+    background: #00addf;
+    color: #f9f9f9;
+  }
+   
+  .event {
+    cursor: pointer;
+    position: relative;
+  }
+   
+  .event:after {
+    background: #00addf;
+    border-radius: 50%;
+    bottom: 0.5em;
+    display: block;
+    content: "";
+    height: 0.5em;
+    left: 50%;
+    margin: -0.25em 0 0 -0.25em;
+    position: absolute;
+    width: 0.5em;
+  }
+   
+  .event.current-day:after {
+    background: #f9f9f9;
+  }
+   
+  .btn-prev,
+  .btn-next {
+    border: 2px solid #cbd1d2;
+    border-radius: 50%;
+    color: #cbd1d2;
+    height: 2em;
+    font-size: 0.75em;
+    line-height: 2em;
+    margin: -1em;
+    position: absolute;
+    top: 50%;
+    width: 2em;
+  }
+   
+  .btn-prev:hover,
+  .btn-next:hover {
+    background: #cbd1d2;
+    color: #f9f9f9;
+  }
+   
+  .btn-prev {
+    left: 6em;
+  }
+   
+  .btn-next {
+    right: 6em;
+  }
 
 footer{
     color: #eaeaea;
