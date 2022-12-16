@@ -97,6 +97,10 @@ body{
     padding-bottom: 50px;
     
   }
+  video{
+    margin-left: 35px;
+    position: relative;
+  }
   .gauche details{
     width: 400px;
   }
@@ -189,13 +193,15 @@ body{
     margin-top: 20px;
   }
   .mets fieldset{
+    color: white;
     height:70px ;
     width: 45pc;
-    background-color:  rgb(191, 241, 224);
+    background-color:  rgb(1, 29, 20);
 
   }
   .gris fieldset{
-    background-color: rgb(191, 241, 224) ;
+    background-color: rgb(1, 29, 20) ;
+    color: white;
   }
 
   
