@@ -93,6 +93,8 @@ body{
   .gauche{
     display: flex;
     position: absolute;
+    flex-direction: column;
+    padding-bottom: 50px;
     
   }
   .gauche details{
@@ -105,9 +107,9 @@ body{
   article{
     padding-top: 500px;
   }
-  .article p {
-    margin-top: 0px;
-  }
+ .formu{
+  margin-top: 315px;
+ }
    
   .article fieldset {
     margin-bottom: 15px;
