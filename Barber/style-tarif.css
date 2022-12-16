@@ -1,0 +1,39 @@
+body{
+    color: white;
+    text-align: center;
+}
+
+
+.haut{
+    display: flex;
+}
+
+.video{
+    padding-left: 25px;
+}
+.para-text{
+    position: absolute;
+    width: 300px;
+    top: 550px;
+    font-size: larger;
+
+}
+button{
+    position: relative;
+    right: 115px;
+    font-size: large;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+
+}
+.list img{
+border: solid;
+}
+.list li{
+    list-style: none;
+
+}

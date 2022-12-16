@@ -18,9 +18,17 @@ main{
     color: antiquewhite;
     justify-content: space-around;
 }
+
+
 .formation{
     margin-top: 55px;
-    padding-left:105px;
+    padding-left:155px;
+    background-color: brown;
+    border-radius: 44px;
+   
+}
+.formation h2{
+    padding-left: 85px;
 }
 .formation button{
     margin-left: 55px;
