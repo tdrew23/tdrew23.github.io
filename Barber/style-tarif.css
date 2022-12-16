@@ -37,3 +37,9 @@ border: solid;
     list-style: none;
 
 }
+.module{
+    font-size: larger;
+}
+.module li{
+    list-style: none;
+}
